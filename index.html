@@ -25,7 +25,7 @@
                 <img src="./public/images/left_bgd.png" alt="dessin enfant" class=" float-end"/>
             </div>
             <!--corps centrale de la page-->
-            <div class="col-12 col-lg-8 text-center banner m-0 p-0">
+            <div class="col-12 col-lg-8 text-center banner m-0 p-0 shadow">
                 <header class="cadreBanner cadreBanner-lg">
                     <img src="./public/images/banner.png" alt="dessin le rucher de Chirintaldia" />
                 </header>
@@ -56,21 +56,80 @@
                     <div class="col">
                         <h1>Bienvenue sur le rucher de Chirintaldia !</h1>
                     </div>
-                    
                 </div>
                 <div class="justify-content-around cadreImage">
                     <div class="cadreImage cadreImage__size">
-                        <a href="#"><img src="./public/images/rucher.jpg" alt="Ruche de Chirintaldia" class="cadreImage__size--lands"/></a>
+                        <a href="#" data-toggle="modal" data-target="#popup-rucher"><img src="./public/images/rucher.jpg" alt="Ruche de Chirintaldia" class="cadreImage__size--lands"/></a>
                     </div>
                     <div class="cadreImage cadreImage__size">
-                        <a href="#"><img src="./public/images/cadre.jpg" alt="Ruche de Chirintaldia"  class="cadreImage__size--lands"/></a>
+                        <a href="#" data-toggle="modal" data-target="#popup-cadre"><img src="./public/images/cadre.jpg" alt="Ruche de Chirintaldia"  class="cadreImage__size--lands"/></a>
                     </div>
                     <div class="cadreImage cadreImage__size">
-                        <a href="#"><img src="./public/images/desoperculation.jpg" alt="Ruche de Chirintaldia"  class="cadreImage__size--lands"/></a>
+                        <a href="#" data-toggle="modal" data-target="#popup-desoperculation"><img src="./public/images/desoperculation.jpg" alt="Ruche de Chirintaldia"  class="cadreImage__size--lands"/></a>
                     </div>
                 </div>
-                <!-- CAROUSEL POPUP-->
+                <div class="row my-3">
+                    <div class="col">
+                        <h2>Vente de miel bio et de produits de la ruche .</h2>
+                    </div>
+                </div>
+                <hr>
                 
+                <footer>
+                    <div class="row g-0">
+                        <div class="col">
+                            <p class="text-start text-black-50 ms-3">&copy paillard@2021</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-end me-3 text-black-50">Dernière mise à jour : dimanche 29 aout 2021</p>
+                        </div>
+                    </div>
+
+                </footer>            
+                <div><!-- Modal Photo-->
+                    <div id="popup-rucher" class="modal fade">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <img src="./public/images/rucher.jpg" alt="rucher" class="d-block w-100" />
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popup-cadre" class="modal fade">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <img src="./public/images/cadre.jpg" alt="cadre de Ruche" class="d-block w-100" />
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popup-desoperculation" class="modal fade">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <img src="./public/images/desoperculation.jpg" alt="desoperculation d'un cadre" class="d-block w-100" />
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="d-none d-lg-block col-lg-2 m-0 p-0">
                 <img src="./public/images/right_bgd.png" alt="dessin enfant"  class=" float-start" />
