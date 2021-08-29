@@ -3,23 +3,42 @@
   background-color: #fff6da;
 }
 
+h1, .h1 {
+  font-family: "Satisfy", cursive;
+  color: red;
+}
+
+.cadreBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.cadreBanner--lg {
+  max-width: 780px;
+  max-height: 170px;
+}
+.cadreBanner img {
+  width: 100%;
+  height: auto;
+}
+
 .cadreImage {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
-.cadreImage--lg {
-  max-width: 780px;
-  max-height: 170px;
+.cadreImage__size {
+  width: 30%;
+  height: 210px;
 }
-.cadreImage--xs {
-  max-width: 50px;
-  max-height: 50px;
-}
-.cadreImage img {
+.cadreImage__size--lands {
   width: 100%;
   height: auto;
+}
+.cadreImage__size--portrait {
+  height: 100%;
 }
 
 /*import Bootstrap*/

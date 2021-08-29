@@ -1,8 +1,11 @@
 .bodycustum {
     background-color: #fff6da;
 }
-
-.cadreImage {
+h1 {
+    font-family: 'Satisfy', cursive;
+    color: red;
+}
+.cadreBanner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,12 +14,26 @@
         max-width: 780px;
         max-height: 170px;
     }
-    &--xs {
-        max-width: 50px;
-        max-height: 50px;
-    }
     & img {
-        width: auto;
-        height: 100%;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.cadreImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    &__size {
+        width: 30%;
+        height: 210px;
+        &--lands {
+            width: 100%;
+            height: auto;
+        }
+        &--portrait {
+            height: 100%;
+        }
     }
 }
