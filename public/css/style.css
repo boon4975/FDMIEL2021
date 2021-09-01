@@ -8,7 +8,11 @@ h1, .h1, h2, .h2 {
   color: red;
 }
 
-p {
+p li td {
+  font-family: "Roboto", sans-serif;
+}
+
+span {
   font-size: 12px;
 }
 
@@ -32,10 +36,14 @@ p {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  height: 200px;
 }
 .cadreImage__size {
   width: 30%;
   height: 210px;
+}
+.cadreImage__size :hover {
+  transform: scale(1.1);
 }
 .cadreImage__size--lands {
   width: 100%;
@@ -43,6 +51,10 @@ p {
 }
 .cadreImage__size--portrait {
   height: 100%;
+}
+
+strong {
+  font-style: italic;
 }
 
 /*import Bootstrap*/

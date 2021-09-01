@@ -5,7 +5,10 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
     color: red;
 }
-p {
+p li td {
+    font-family: 'Roboto', sans-serif;
+}
+span {
     font-size: 12px;
 }
 .cadreBanner {
@@ -28,9 +31,13 @@ p {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    height: 200px;
     &__size {
         width: 30%;
         height: 210px;
+        & :hover {
+            transform: scale(1.1);
+        }
         &--lands {
             width: 100%;
             height: auto;
@@ -39,4 +46,8 @@ p {
             height: 100%;
         }
     }
+}
+
+strong {
+    font-style: italic;
 }
