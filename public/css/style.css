@@ -8,6 +8,11 @@ h1, .h1, h2, .h2 {
   color: red;
 }
 
+h3 > a, .h3 > a, p > a {
+  font-size: 16px;
+  color: green;
+}
+
 p li td {
   font-family: "Roboto", sans-serif;
 }
@@ -42,8 +47,8 @@ span {
   width: 30%;
   height: 210px;
 }
-.cadreImage__size :hover {
-  transform: scale(1.1);
+.cadreImage__size:hover {
+  border: solid 1px #fff6da;
 }
 .cadreImage__size--lands {
   width: 100%;
@@ -55,6 +60,10 @@ span {
 
 strong {
   font-style: italic;
+}
+
+.lh {
+  line-height: 0.4;
 }
 
 /*import Bootstrap*/
