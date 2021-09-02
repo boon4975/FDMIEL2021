@@ -148,17 +148,17 @@ const apitheratie = [
         "unite": 1000
     },
     {
-        "name": "Propolis en teinture mère - flacon compte-gouttes plastique",
+        "name": "Propolis en teinture mère <br/> flacon compte-gouttes plastique",
         "contenance": "20ml",
         "unite": 1300
     },
     {
-        "name": "Propolis en teinture mère - flacon compte-gouttes plastique",
+        "name": "Propolis en teinture mère <br/> flacon compte-gouttes plastique",
         "contenance": "30ml",
         "unite": 1800
     },
     {
-        "name": "Propolis en teinture mère - compte-gouttes verre / vaporisateur",
+        "name": "Propolis en teinture mère <br/> compte-gouttes verre / vaporisateur",
         "contenance": "30ml",
         "unite": 1900
     },
