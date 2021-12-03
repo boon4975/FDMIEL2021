@@ -35,14 +35,13 @@ span {
 }
 
 .cadreImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
-    height: 200px;
     &__size {
-        width: 30%;
-        height: 210px;
+        //width: 30%;
+        max-height: 210px;
+        object-fit: cover;
+        object-position: 50% 50%;
+        margin: 50px 0;
         &:hover {
         border: solid 1px #fff6da;
         }
